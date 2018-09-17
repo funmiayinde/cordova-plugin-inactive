@@ -7,6 +7,8 @@ cordova plugin add https://github.com/funmiayinde/cordova-plugin-inactive.git
 
 # How to use it
 
+var detectionIntervalInSeconds = 10; // in milliseconds
+
 var getStateCallback = function(state) {
       
       console.log("Inactive Get State: " +  state);
