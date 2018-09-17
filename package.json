@@ -1,0 +1,44 @@
+{
+  "name": "cordova-plugin-inactive",
+  "version": "0.1.0",
+  "description": "A plugin to check for inactive user",
+  "cordova": {
+    "id": "cordova-plugin-inactive",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "idle",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Funmi ayinde",
+  "license": "Apache-2",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
